@@ -1,6 +1,6 @@
 System design is a broad field focused on building scalable, reliable, maintainable, and efficient software systems. Here are the major topics, roughly grouped from fundamentals to advanced concepts.
 
-## 1. System Design Fundamentals
+## [1. System Design Fundamentals](https://github.com/mickeymaruf/system-design/blob/main/1-system-design-fundamentals.md)
 
 * Functional vs. non-functional requirements
 * Scalability
