@@ -427,3 +427,39 @@ That's the difference between **knowing terminology** and **actually doing syste
 Let's test these before moving on.
 
 **Imagine you're designing a food-delivery app like Uber Eats. What are the functional and non-functional requirements for this system? Give me 3–5 functional and 3–5 non-functional requirements.**
+
+<details>
+<summary>🔍 Reveal Answer</summary>
+
+## Functional requirements
+
+- Users can browse restaurants and menus.
+- Users can place orders.
+- Restaurants can accept and manage orders.
+- Delivery partners can fulfill deliveries.
+- Users can pay for orders.
+- Restaurants can register and manage menu items.
+
+## Non-functional requirements
+
+- Support millions of users/requests.
+- High availability.
+- Low latency for browsing and ordering.
+- Reliable order and payment processing.
+- Fault tolerant so individual server/service failures don't bring down the entire system.
+- Maintainable and easy to monitor.
+
+### ⭐ Interview trick
+
+When you get stuck on non-functional requirements, remember:
+
+**SCALE**
+
+- **S**calability
+- **A**vailability
+- **L**atency/performance
+- **E**rror tolerance/reliability
+
+Then add **security** and **maintainability** when relevant.
+
+</details>
