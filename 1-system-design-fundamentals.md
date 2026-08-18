@@ -426,7 +426,8 @@ That's the difference between **knowing terminology** and **actually doing syste
 
 Let's test these before moving on.
 
-**Imagine you're designing a food-delivery app like Uber Eats. What are the functional and non-functional requirements for this system? Give me 3–5 functional and 3–5 non-functional requirements.**
+**Question 1:**
+> **Imagine you're designing a food-delivery app like Uber Eats. What are the functional and non-functional requirements for this system? Give me 3–5 functional and 3–5 non-functional requirements.**
 
 <details>
 <summary>🔍 Reveal Answer</summary>
@@ -461,5 +462,15 @@ When you get stuck on non-functional requirements, remember:
 - **E**rror tolerance/reliability
 
 Then add **security** and **maintainability** when relevant.
+
+</details>
+
+**Question 2:**
+> **Imagine you're designing a food-delivery app like Uber Eats. What are the functional and non-functional requirements for this system? Give me 3–5 functional and 3–5 non-functional requirements.**
+
+<details>
+<summary>🔍 Reveal Answer</summary>
+
+I would horizontally scale the application layer by running multiple server instances behind a load balancer. This allows traffic to be distributed across multiple servers and lets us add more instances as traffic grows.
 
 </details>
